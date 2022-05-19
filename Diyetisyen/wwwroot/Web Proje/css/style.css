@@ -1,0 +1,317 @@
+
+
+
+.diyet{
+    max-width: 1400px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    
+}
+
+.diyet .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: rgb(109, 138, 21);
+    background: linear-gradient(to right, #b5c6ba 0%, rgb(161, 196, 55) 100% );
+    padding-top: 9px;
+        
+}
+
+
+p,h6{
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+
+}
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: rgb(109, 138, 21) ;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.contact-form .input-text:focus{
+    outline: none;
+    text-align: center;
+}
+
+.contact-form .label{
+    position: absolute;
+    right: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(109, 138, 21);
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #b5c6ba, rgb(109, 138, 21));
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200;
+    cursor: pointer;
+
+}
+
+.yorum{
+    background-color: #e3efe7;
+    margin: 3px;
+    border: 1px solid rgb(197, 250, 159);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    
+
+    
+   
+
+    
+
+}
+.yorum img{
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 15px;
+    
+    
+}
+
+.yorum p{
+    
+    
+    margin-top: 10px;
+}
+
+.tumyorum a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(53, 55, 50);
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.tumyorum a:hover{
+    color: rgb(109, 138, 21);
+}
+
+
+.fotsection{
+    background-color:  #0f3539;
+    
+}
+.liste li {
+    list-style-type: none;
+    
+
+}
+
+.liste li a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon li{
+    float: left;
+    align-items: start;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-right: 0 10px 10px 0;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.link li:hover{
+    align-items: start;
+    display: inline-block;
+    height:25px;
+    width: 110px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-right: 0 10px 10px 0;
+    margin-right: 15px;
+    text-align: center;
+    color: #ffffff;
+    
+    
+    
+    
+} 
+
+.baslik{
+    margin-left: 30px;
+    
+}
+
+.icon li:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
+}
+
+
+.footer{
+    background-color:  #0c2e33;
+}
+
+
+
+.adres{
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+
+.footer-liste ul li{
+    float: left;
+    list-style: none;
+    padding: 0 0;
+    margin-bottom: 20px;
+    font-size: x-small;
+    margin-left: 40px;
+
+}
+
+.accordion-item{
+    margin-bottom: 15px;
+}
+
+.accordion-button:focus,:hover{
+color: #000000;
+}
+.accordion-button:focus{
+    background-color: #acb9a7;
+}
+
+.renk{
+   background-color: #acb9a7;
+}
+
+.footlogo:hover{
+color: white;
+}
+
+.accordion-body{
+    text-align: justify;
+    background-color: #f1f4e9;
+}
+
+.siralama:hover{
+    font-size: 100px;
+}
+
+.btn-basvuru{
+    width: 600px;
+    height: 64px;
+    border: none;
+    color: white;
+    background-color: rgb(129, 176, 63);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(129, 176, 63);
+    font-family: 'Nunito', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+.btn-basvuru:hover{
+    box-shadow: inset 700px 0 0 0 #56799d;
+    cursor: pointer;
+    color: #000000;
+}
+
+.HizmetImg{
+    width: 200px;
+    
+}
+
+
+
+#bmi-box{
+    background-color: #424242;
+    color:  #fff;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px;
+
+    
+}
+#bmi-calculater h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
+
+
+#bmi-result{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#bmi-info{
+    text-align: center;
+    margin-top: 100px;
+}
+#bmi-info .row .col-md-3 {
+    padding-top: 20px;
+}
+#bmi-info .row .col-md-3:nth-child(1){
+    background-color: #2196f3;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#bmi-info .row .col-md-3:nth-child(2){
+    background-color: #43a047;
+}
+#bmi-info .row .col-md-3:nth-child(3){
+    background-color: #fb8c00;
+}
+#bmi-info .row .col-md-3:nth-child(4){
+    background-color: #c62828;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
